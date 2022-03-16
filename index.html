@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do Lost</title>
+    <link rel="stylesheet" href="Todo.css">
+    <link rel="shortcut icon" href="todo.png" type="image/x-icon">
+</head>
+<body>
+    <div class = 'container'>
+        <center>  <h1>Daily Goals </h1> <hr></center>
+        <ul id ='parent'>
+         
+        </ul><center>
+        <div id="inputBox">
+          <center><h5>Welcome To My ToDo</h5></center>
+          <input type='text' id="event" placeholder='Type in the activity'>
+          <input type='time' id="time"><br>
+            <button id="addItem" onclick = "addToList()" class='btn'>Add To Do</button><br>
+          <button id="hide" onclick = "cancelIt()" class="btn">Cancel</button>
+        </div>
+        </center>
+          <button id="show" onclick="displayBox()">+</button>
+      </div> 
+      <script src="Todo.js"></script>
+</body>
+</html>
